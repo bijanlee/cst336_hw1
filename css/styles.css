@@ -58,7 +58,7 @@ a:not([href]):not([tabindex]):focus {
 
 .topnav {
 	overflow: hidden;
-	background-color: #333;
+	background-color: #1e228a;
 }
 
 .topnav a {
@@ -81,8 +81,9 @@ a:not([href]):not([tabindex]):focus {
 }
 
 .footer {
-  background-color: #f1f1f1;
+  background-color: #7c9fe0;
   padding: 10px;
+  text-align: center;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -90,7 +91,7 @@ a:not([href]):not([tabindex]):focus {
 }
 
 .active {
-	background-color: #999999;
+	background-color: #1730e4;
 }
 
 .blockquote {
@@ -117,4 +118,7 @@ a:not([href]):not([tabindex]):focus {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
